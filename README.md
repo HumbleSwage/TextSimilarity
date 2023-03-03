@@ -17,8 +17,14 @@
 ## 3、项目地址
 
 - github地址:https://github.com/HumbleSwage/TextSimilarity
+
 - csdn地址:
+
 - 百度网盘:
+
+- 测试数据：
+
+  
 
 ## 3、项目部署
 
@@ -85,3 +91,16 @@
   - 提取文本中的图片进行对比；
   - 提取文本中的表格与标准表格进行对比，判断正确个数；
   - 将本项目演变为一个自动打分系统；
+
+```bash
+pyinstaller -F -w -i Pic/logo.ico main.py 
+-p ./Core --hidden-import CalculateSimilarity.py 
+-p ./Core --hidden-import Quantification.py 
+-p ./Panel --hidden-import MyMainForm.py
+-p ./Panel --hidden-import Ui.py
+-p ./Processor --hidden-import CutSelectContent.py
+-p ./Reader --hidden-import ReadContentAndPath.py
+-p ./Reader --hidden-import ReadFileContent.py
+-p ./Utils --hidden-import BeautifulOut.py
+```
+
