@@ -22,7 +22,7 @@
 
 - 百度网盘:
 
-- 测试数据：
+- 测试数据：链接: https://pan.baidu.com/s/1rS8BvDVadu2Xf3C6UbwQJA 提取码: h9ke
 
   
 
@@ -35,7 +35,6 @@
   - 创建工作目录
 
     ```bash
-    // 切换到你的python工作目录下面
     mkdir TextSimilarityProject
     cd TextSimilarityProject
     ```
@@ -92,15 +91,21 @@
   - 提取文本中的表格与标准表格进行对比，判断正确个数；
   - 将本项目演变为一个自动打分系统；
 
-```bash
-pyinstaller -F -w -i Pic/logo.ico main.py 
--p ./Core --hidden-import CalculateSimilarity.py 
--p ./Core --hidden-import Quantification.py 
--p ./Panel --hidden-import MyMainForm.py
--p ./Panel --hidden-import Ui.py
--p ./Processor --hidden-import CutSelectContent.py
--p ./Reader --hidden-import ReadContentAndPath.py
--p ./Reader --hidden-import ReadFileContent.py
--p ./Utils --hidden-import BeautifulOut.py
-```
+- 使用pyinstaller将本项目打包为exe或者.app可执行文件
 
+  我们已经将项目进行打包，你可以直接进行体验
+
+  - exe下载地址：
+  - dmg下载地址：链接: https://pan.baidu.com/s/1JOrqoe8WXi7xkB0zxFPxmw 提取码: 7ux7
+
+  ```bash
+  pyinstaller -F -w -i Pic/logo.ico main.py 
+  -p ./Core --hidden-import CalculateSimilarity.py 
+  -p ./Core --hidden-import Quantification.py 
+  -p ./Panel --hidden-import MyMainForm.py
+  -p ./Panel --hidden-import Ui.py
+  -p ./Processor --hidden-import CutSelectContent.py
+  -p ./Reader --hidden-import ReadContentAndPath.py
+  -p ./Reader --hidden-import ReadFileContent.py
+  -p ./Utils --hidden-import BeautifulOut.py
+  ```
