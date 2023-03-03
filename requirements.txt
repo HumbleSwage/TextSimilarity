@@ -1,0 +1,18 @@
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+jieba-fast==0.53
+lxml==4.9.2
+numpy==1.21.5
+packaging @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_bet5qdixgt/croot/packaging_1671697440883/work
+pandas==1.4.3
+pdfminer==20191125
+Pillow==9.4.0
+pycryptodome==3.17
+PyQt5==5.15.9
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.11.1
+python-dateutil==2.8.2
+python-docx==0.8.11
+pytz==2022.7.1
+requests @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_516b78ce-034d-4395-b9b5-1d78c2847384qtnol99l/croots/recipe/requests_1657734628886/work
+scipy==1.10.0
+six==1.16.0
