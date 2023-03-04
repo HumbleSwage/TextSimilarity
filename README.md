@@ -16,15 +16,13 @@
 
 ## 3、项目地址
 
-- github地址:https://github.com/HumbleSwage/TextSimilarity
+- [github地址](https://github.com/HumbleSwage/TextSimilarity)【推荐】
 
-- csdn地址:
+- [csdn地址](https://blog.csdn.net/weixin_43495948/article/details/114527295)
 
-- 百度网盘:
+- [百度网盘](https://pan.baidu.com/s/1SUsyQJlLOooilKKeZAvHIw) 提取码: 1dfv
 
-- 测试数据：链接: https://pan.baidu.com/s/1rS8BvDVadu2Xf3C6UbwQJA 提取码: h9ke
-
-  
+- [测试数据](https://pan.baidu.com/s/1rS8BvDVadu2Xf3C6UbwQJA) 提取码: h9ke
 
 ## 3、项目部署
 
@@ -95,9 +93,11 @@
 
   我们已经将项目进行打包，你可以直接进行体验
 
-  - exe下载地址：
-  - dmg下载地址：链接: https://pan.baidu.com/s/1JOrqoe8WXi7xkB0zxFPxmw 提取码: 7ux7
+  - exe下载地址：本文mac电脑，无法测试，如果你能成功运行欢迎pull request
+  - [dmg下载](https://pan.baidu.com/s/1JOrqoe8WXi7xkB0zxFPxmw)提取码: 7ux7
 
+  打包的命令可以参考以下的命令
+  
   ```bash
   pyinstaller -F -w -i Pic/logo.ico main.py 
   -p ./Core --hidden-import CalculateSimilarity.py 
